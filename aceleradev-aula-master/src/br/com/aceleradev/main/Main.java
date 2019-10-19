@@ -1,6 +1,8 @@
 package br.com.aceleradev.main;
 
 import br.com.aceleradev.domain.Aluno;
+import br.com.aceleradev.domain.DataLoader;
+import br.com.aceleradev.domain.Disciplina;
 
 public class Main {
 
@@ -18,12 +20,18 @@ public class Main {
 //        }
 
 
+
+
+
         Aluno aluno = new Aluno(
                 "Gustavo",
                 "gus",
                 "123.456.789-12");;
 
 //        System.out.println(aluno);
+
+        //DataLoader dl = new DataLoader();
+
 
     }
 
